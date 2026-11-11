@@ -1,0 +1,48 @@
+# Node.js and Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+build/
+
+# Local secrets; sanitized examples may be tracked
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local SQLite databases and sidecar files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Logs and operating system files
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
