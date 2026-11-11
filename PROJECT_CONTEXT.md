@@ -58,12 +58,12 @@ Inspeção do ambiente em 2026-11-10:
 
 Validação concluída em 2026-11-11: conteúdo dos quatro arquivos conferido em UTF-8; git status confirmou os quatro arquivos ainda não rastreados e a branch main sem commits; git remote -v não apresentou remotos. git check-ignore confirmou que dependências, caches, arquivos .env, bancos SQLite e arquivos auxiliares são ignorados. Os exemplos .env.example e os documentos permanecem versionáveis. Não há testes de aplicação a executar nesta etapa.
 
-## Pendências e próximos passos
+## Andamento e próximos passos
 
 1. Base documental aprovada pelo responsável para o primeiro commit local.
-2. Primeiro commit autorizado: chore: initialize CodeTrust project. Este snapshot registra a base documental inicial; verificar o histórico do Git para seu identificador. A autorização não inclui push ou publicação.
-3. Definir proprietário e visibilidade do repositório GitHub e criá-lo vazio desde o início do desenvolvimento.
-4. Após autorização, conectar origin e fazer o primeiro push. O navegador pode ser usado sem instalar gh.
+2. Primeiro commit autorizado: chore: initialize CodeTrust project. Este snapshot registra a base documental inicial; verificar o histórico do Git para seu identificador. Essa autorização inicial foi limitada ao commit local; a autorização posterior de publicação está registrada abaixo.
+3. Repositório público criado via Playwright em 2026-11-11: https://github.com/ArthurSchmitz07/CodeTrust. Proprietário: ArthurSchmitz07. Criado vazio, sem README, .gitignore ou licença automáticos. Visibilidade Public confirmada na página do GitHub.
+4. origin configurado como https://github.com/ArthurSchmitz07/CodeTrust.git. Primeiro push da branch main autorizado pelo responsável; validar sua conclusão pelo Git e pelo navegador Playwright.
 5. Propor a próxima pequena implementação e aguardar aprovação.
 
 Nenhuma licença foi escolhida. Não criar licença sem discutir com o responsável.
@@ -71,3 +71,7 @@ Nenhuma licença foi escolhida. Não criar licença sem discutir com o responsá
 ## Marcos futuros
 
 Frontend, backend, desafios e coleta, avaliação isolada, integração com resultados reais e publicação da primeira versão. Bons marcos para LinkedIn: primeira interface funcional, integração frontend/backend, avaliação automatizada e primeiros resultados reais.
+
+## Registro de versionamento
+
+Primeiro commit local criado: 2609ffe — chore: initialize CodeTrust project. Repositório público criado com autorização do responsável. Em seguida, o responsável autorizou configurar origin, registrar esta atualização com a mensagem docs: record GitHub repository setup e publicar os commits com git push -u origin main. Consultar o histórico do Git para o identificador do commit documental e conferir a sincronização com origin/main após a publicação.
